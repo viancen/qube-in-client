@@ -1,0 +1,30 @@
+{
+  "name": "viancen/qube-in-client",
+  "type": "package",
+  "version": "1.0",
+  "description": "API client for QubeIN",
+  "keywords": [
+    "eazycv",
+    "api"
+  ],
+  "homepage": "https://github.com/viancen/qube-in-client",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Inforvision BV",
+      "email": "info@inforvision.nl",
+      "homepage": "https://www.inforvision.nl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "guzzlehttp/guzzle": "~6.0",
+    "larapack/dd": "^1.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "QubeInClient": "src/"
+    }
+  }
+}
